@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone Top de Linha",
+    "price": 3500,
+    "description": "Smartphone com câmera de alta resolução e processador rápido.",
+    "category": "Eletrônicos",
+    "status": "anunciado",
+    "imageBase64": "data:image/jpeg;base64,..."
+  },
+  {
+    "id": 2,
+    "title": "Fone de Ouvido Sem Fio",
+    "price": 450,
+    "description": "Fone com cancelamento de ruído e longa duração de bateria.",
+    "category": "Eletrônicos",
+    "status": "vendido",
+    "imageBase64": "data:image/jpeg;base64,..."
+  }
+]
