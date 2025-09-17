@@ -1,4 +1,4 @@
-<div class="py-7 px-14">
+<div class="w-full py-7 px-14">
   <!-- Container de Títulos e do Container Filtro e Lista de Produtos -->
   <div class="w-full flex flex-col gap-5">
     <!-- Títulos -->
@@ -21,14 +21,18 @@
             <img class="mr-2 opacity-85 w-5 h-5" src="search.svg" />
             <input class="text-gray-400 text-sm focus:outline-none" type="text" placeholder="Pesquisar" />
           </div>
-          <!-- Dropbox de Status -->
-          <div class="flex border-b border-gray-300 pb-2">
-            <img class="mr-2 opacity-85 w-5 h-5" src="sale-tag.svg" />
-            <input class="text-gray-400 text-sm focus:outline-none" type="text" placeholder="Status" />
-          </div>
+          
+          <!-- Select de Status -->
+          <select class="w-full bg-white border-b border-gray-300 text-gray-400 py-2 text-sm focus:outline-none">
+            <option value="" disabled selected hidden>Status</option>
+            <option>Anunciado</option>
+            <option>Vendido</option>
+            <option>Desativado</option>
+          </select>
 
           <!-- Botão Aplicar filtro -->
-          <div class="flex justify-center p-3 rounded-lg bg-[#F24D0D] cursor-pointer">
+          <div class="flex justify-center p-3 rounded-lg bg-[#F24D0D] cursor-pointer active:translate-y-2 duration-200 
+    ease-in-out transition">
             <span class="text-white text-sm">Aplicar filtro</span>
           </div>
         </div>
@@ -64,11 +68,11 @@
             </div>
           </div>
           <div class="flex justify-between p-3">
-            <h3 class="font-bold text-gray-700">Sofá</h3>
-            <h3 class="font-bold"><span class="text-xs font-medium">R$</span> 1.200,90</h3>
+            <h3 class="font-bold text-gray-700">Camiseta masculina</h3>
+            <h3 class="font-bold"><span class="text-xs font-medium">R$</span> 200,00</h3>
           </div>
           <div class="px-3 pb-3">
-            <p class="text-gray-500 text-sm">Sofá revestido em couro legítimo, com estrutura em madeira maciça e pés em metal cromado.</p>
+            <p class="text-gray-500 text-sm">Camiseta básica cinza, confeccionada em algodão 100%, com corte slim fit e gola redonda.</p>
           </div>
         </div>
 
@@ -82,11 +86,11 @@
             </div>
           </div>
           <div class="flex justify-between p-3">
-            <h3 class="font-bold text-gray-700">Sofá</h3>
-            <h3 class="font-bold"><span class="text-xs font-medium">R$</span> 1.200,90</h3>
+            <h3 class="font-bold text-gray-700">Carro de brinquedo</h3>
+            <h3 class="font-bold"><span class="text-xs font-medium">R$</span> 100,00</h3>
           </div>
           <div class="px-3 pb-3">
-            <p class="text-gray-500 text-sm">Sofá revestido em couro legítimo, com estrutura em madeira maciça e pés em metal cromado.</p>
+            <p class="text-gray-500 text-sm">Carrinho de brinquedo na cor amarela, feito de metal, com detalhes realistas.</p>
           </div>
         </div>
 
