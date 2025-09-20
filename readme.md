@@ -1,6 +1,6 @@
 # 🚀 Desafio de lançamento do curso de Angular na Rocketseat
 
-### Descrição do Projeto
+### 📂 Descrição do Projeto
 
 Este projeto é uma simulação de um sistema de gestão de produtos que inclui as seguintes funcionalidades:
 
@@ -12,7 +12,7 @@ O desafio é dividido em dois projetos, um frontend em Angular e um backend em E
 
 ---
 
-### Como Executar os Projetos
+### ▶️ Como Executar os Projetos
 
 Para rodar a aplicação, você deve iniciar tanto o servidor do backend quanto o frontend em terminais separados.
 
@@ -27,7 +27,7 @@ Para rodar a aplicação, você deve iniciar tanto o servidor do backend quanto 
     ```bash
     npm run dev
     ```
-4.  O servidor estará disponível em `http://localhost:3000`.
+4.  👉 O servidor estará disponível em `http://localhost:3000`.
 
 #### Frontend (Angular)
 
@@ -40,11 +40,11 @@ Para rodar a aplicação, você deve iniciar tanto o servidor do backend quanto 
     ```bash
     ng serve
     ```
-4.  A aplicação estará disponível em `http://localhost:4200/`.
+4.  👉 A aplicação estará disponível em `http://localhost:4200/`.
 
 ---
 
-### Instalações Necessárias
+### 🛠️ Instalações Necessárias
 
 Certifique-se de que as seguintes ferramentas estão instaladas em seu ambiente para que os projetos funcionem corretamente:
 
@@ -54,13 +54,13 @@ Certifique-se de que as seguintes ferramentas estão instaladas em seu ambiente 
 
 ---
 
-### Recursos Adicionais
+### 📸 Recursos Adicionais
 
 * A pasta `imagens` na raiz do repositório contém imagens que podem ser usadas para teste ao criar um novo produto.
 * O arquivo `insomnia-backend.yaml`, localizado na pasta `backend-gestao-marketplace`, contém a coleção de endpoints que pode ser importada no Insomnia para facilitar os testes da API.
 
 ---
 
-### **Instruções Importantes**
+### ⚠️ **Instruções Importantes**
 
 Para começar, clone o repositório na branch `01-layout-completo`.
