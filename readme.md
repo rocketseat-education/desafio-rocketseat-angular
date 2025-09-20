@@ -19,20 +19,28 @@ Para rodar a aplicação, você deve iniciar tanto o servidor do backend quanto 
 #### Backend (Express)
 
 1.  Abra um terminal na pasta `backend-gestao-marketplace`.
-2.  Execute o comando para iniciar o servidor:
+2.  Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
+3.  Execute o comando para iniciar o servidor:
     ```bash
     npm run dev
     ```
-3.  O servidor estará disponível em `http://localhost:3000`.
+4.  O servidor estará disponível em `http://localhost:3000`.
 
 #### Frontend (Angular)
 
 1.  Abra um terminal na pasta `frontend-gestao-marketplace`.
-2.  Execute o comando para iniciar a aplicação:
+2.  Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
+3.  Execute o comando para iniciar a aplicação:
     ```bash
     ng serve
     ```
-3.  A aplicação estará disponível em `http://localhost:4200/`.
+4.  A aplicação estará disponível em `http://localhost:4200/`.
 
 ---
 
