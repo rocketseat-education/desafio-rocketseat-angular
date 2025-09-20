@@ -1,4 +1,4 @@
-# Desafio de lançamento do curso de Angular na Rocketseat
+# 🚀 Desafio de lançamento do curso de Angular na Rocketseat
 
 ### Descrição do Projeto
 
