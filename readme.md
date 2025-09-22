@@ -6,6 +6,8 @@
 
 - A branch **`main`** contém o projeto **finalizado**, de acordo com o que foi desenvolvido nos vídeos do desafio.  
 
+---
+
 ### 📂 Descrição do Projeto
 
 Este projeto é uma simulação de um sistema de gestão de produtos que inclui as seguintes funcionalidades:
