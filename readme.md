@@ -1,5 +1,11 @@
 # 🚀 Desafio de lançamento do curso de Angular na Rocketseat
 
+### ⚠️ **Instruções Importantes**
+
+- A branch **`01-layout-completo`** deve ser utilizada por quem deseja **iniciar o desafio do zero**, acompanhando os conteúdos e evoluindo o projeto passo a passo.  
+
+- A branch **`main`** contém o projeto **finalizado**, de acordo com o que foi desenvolvido nos vídeos do desafio.  
+
 ### 📂 Descrição do Projeto
 
 Este projeto é uma simulação de um sistema de gestão de produtos que inclui as seguintes funcionalidades:
@@ -72,7 +78,3 @@ Para melhorar a produtividade durante o desenvolvimento, recomenda-se instalar a
 * O arquivo `insomnia-backend.yaml`, localizado na pasta `backend-gestao-marketplace`, contém a coleção de endpoints que pode ser importada no Insomnia para facilitar os testes da API.
 
 ---
-
-### ⚠️ **Instruções Importantes**
-
-Para começar, clone o repositório na branch `01-layout-completo`.
