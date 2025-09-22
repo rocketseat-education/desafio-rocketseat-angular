@@ -48,9 +48,21 @@ Para rodar a aplicação, você deve iniciar tanto o servidor do backend quanto 
 
 Certifique-se de que as seguintes ferramentas estão instaladas em seu ambiente para que os projetos funcionem corretamente:
 
-* **Node.js**: Versão 22.19.0 (LTS).
-* **Angular CLI**: Versão 20.
-* **Insomnia**: Última versão para testar os endpoints do backend.
+* **Node.js**: Versão 22.19.0 (LTS).  
+* **Angular CLI**: Versão 20.  
+* **Insomnia**: Última versão para testar os endpoints do backend.  
+* **Visual Studio Code (VS Code)**: Última versão recomendada para edição de código.  
+
+---
+
+### 💡 Extensões recomendadas do VS Code
+
+Para melhorar a produtividade durante o desenvolvimento, recomenda-se instalar as seguintes extensões no **Visual Studio Code**:
+
+- **Angular Language Service** → Fornece autocompletar, dicas e suporte avançado ao desenvolvimento Angular.  
+- **Material Icon Theme** → Adiciona ícones visuais aos arquivos e pastas, facilitando a navegação no projeto.  
+- **Shades of Purple** → Tema moderno e vibrante para melhorar a experiência visual no editor.  
+- **Tailwind CSS IntelliSense** → Autocompletar e validação para classes do Tailwind CSS, tornando o uso mais ágil e confiável.  
 
 ---
 
