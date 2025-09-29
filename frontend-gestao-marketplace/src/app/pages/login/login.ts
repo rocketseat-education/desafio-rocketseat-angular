@@ -1,14 +1,15 @@
 import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
 import { UserService } from '../../services/user';
 import { UserAuthService } from '../../services/user-auth';
+import { Router } from '@angular/router';
+import { take } from 'rxjs';
 
 @Component({
   selector: 'app-login',
   imports: [ReactiveFormsModule],
   templateUrl: './login.html',
-  styleUrl: './login.css',
+  styleUrl: './login.css'
 })
 export class Login {
   loginErrorMessage = '';
@@ -22,24 +23,23 @@ export class Login {
   private readonly _router = inject(Router);
 
   login() {
-    if (this.userForm.invalid) return;
+    if(this.userForm.invalid) return;
 
-    this._userService
-      .login(
-        this.userForm.get('email')?.value as string,
-        this.userForm.get('password')?.value as string
-      )
-      .subscribe({
+    this._userService.login(
+      this.userForm.get('email')?.value as string, 
+      this.userForm.get('password')?.value as string).pipe(take(1)).subscribe({
         next: (response) => {
           this.loginErrorMessage = '';
-
-          //Salvar o token no localStorage
+          
+          // salvar o token no localstorage
           this._userAuthService.setUserToken(response.data.token);
 
-          //Redirecionar para a página de produtos
+          // redirecionar para tela de produtos
           this._router.navigate(['/products']);
         },
         error: (error) => {
+          console.log(error);
+
           this.loginErrorMessage = error.error.message;
         },
       });
